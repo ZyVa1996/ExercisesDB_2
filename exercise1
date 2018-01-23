@@ -5,10 +5,15 @@ mkdir exercises
 cd exercises
 git init
 git remote add origin https://github.com/<username>/exercises.git 
-git push -u origin master
+git push -u origin master --> gaat niet, eerste file maken
 
 gedit exercise1
 
-git add exercise1.txt
-git commit -m "exercise1 without git commands"
-git push
+git add exercise1
+git commit -m "exercise1"
+git push -u origin master --> gaat wel, omdat je een file hebt
+
+opmerking --> nieuwe document toevoegen:
+						git add exercise2
+						git commit -m "exercise2"
+						git push (geen origin master meer!!)
