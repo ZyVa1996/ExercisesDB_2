@@ -1,0 +1,14 @@
+create repository on github.com]
+
+[on own system]
+mkdir exercises
+cd exercises
+git init
+git remote add origin https://github.com/<username>/exercises.git 
+git push -u origin master
+
+gedit exercise1
+
+git add exercise1.txt
+git commit -m "exercise1 without git commands"
+git push
